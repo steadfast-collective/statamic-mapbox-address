@@ -9,15 +9,10 @@
     }
   },
   "require": {
-    "php": "^7.3|^8.0",
-    "statamic/cms": "^3.0|^4.0|^5.0",
-    "pixelfear/composer-dist-plugin": "^0.1"
+    "php": "^8.3",
+    "statamic/cms": "^3.0|^4.0|^5.0|^6.0"
   },
   "extra": {
-    "download-dist": {
-      "url": "https://github.com/mattrothenberg/statamic-mapbox-address/releases/download/{$version}/dist.tar.gz",
-      "path": "dist"
-    },
     "statamic": {
       "name": "Statamic Mapbox Address",
       "description": "A Mapbox autocomplete dropdown fieldtype for the Statamic Control Panel"
@@ -26,11 +21,6 @@
       "providers": [
         "Mattrothenberg\\StatamicMapboxAddress\\ServiceProvider"
       ]
-    }
-  },
-  "config": {
-    "allow-plugins": {
-      "pixelfear/composer-dist-plugin": true
     }
   }
 }
